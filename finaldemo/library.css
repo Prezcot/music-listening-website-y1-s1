@@ -1,0 +1,190 @@
+*{
+	font-family: monospace;
+}
+
+body{
+	background-color: #82eeef;
+}
+
+.navbar{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 15%;
+	height: 100%;
+	background-color: black;
+	position: fixed;
+}
+
+.search{
+	position: absolute;
+	background-color: #0eadc4;
+	top: 0px;
+	left: 0px;
+	height: 10%;
+	width: 100%;
+	position: fixed;
+}
+
+.logo{
+	margin-top: 8%;
+	margin-left: 8%;
+}
+
+.heading{
+	display: flex;
+	align-content: center;
+	color: white;
+}
+
+.heading h1{
+	padding-left: 5%;
+	margin-top: 20%;
+	margin-left: 4%;
+	font-size: 30px;
+}
+
+.navbaricons h2{
+	color: white;
+}
+
+.navbaricons{
+
+	margin-top: 20%;
+	text-align: center;
+}
+
+.navbaricons img{
+	padding: 10%;
+	cursor: crosshair;
+}
+
+.navbaricons img:hover{
+	background-color: #82eefe;
+	border-radius: 10px;
+}
+
+
+/* related to play.php*/
+
+#audio_controls{
+	width: 80%;
+	position: absolute;
+	left: 9%;
+	top: 30%;
+
+}
+
+#audio_div img{
+	position: absolute;
+	top: 40%;
+	left: 43%;
+}
+
+#audio_div h1{
+	position: absolute;
+	top: 60%;
+	left: 46%;
+}
+
+/* from here its everything to do with the song area */
+
+
+#file_select_button , #file_upload_button{
+
+	font-size: 30px;
+}
+
+
+
+
+.songarea{
+	border: 3px solid whitesmoke;
+	border-radius: 10px;
+	padding: 0.5%;
+	left: 40%;
+	position: absolute;
+	top: 14%;
+}
+
+.songlist{
+	position: absolute;
+	border: 3px solid whitesmoke;
+	border-radius: 10px;
+	height: 70%;
+	width: 80%;
+	top: 25%;
+	left: 18%;
+	font-size: 20px;
+	padding-left: auto;
+	padding-right: auto;
+	overflow: auto;
+	
+}
+
+
+.songlist a:hover{
+	background-color: #0eadc4;
+}
+
+
+.songlist h1{
+	color: #1376a1;
+
+}
+
+/*everything related to the menu after this*/
+
+.menu{
+	float: right;
+	position: absolute;
+	right: 10px;
+	top: 18px;
+	width: 200px;
+}
+
+.search h2{
+	float: right;
+	padding-right: 200px;
+	padding-top: 20px;
+}
+
+.menu img{
+	float: right;
+
+}
+
+.displaymenu{
+	display: none;
+	border-radius: 10px;
+	font-size: 20px;
+	position: absolute;
+	top: 60px;
+	right: 0px;
+	background-color: #f1f1f1;
+   	width: 180px;
+   	height: auto;
+
+}
+
+.displaymenu a{
+	line-height: 2;
+	text-indent: 50px;
+	text-decoration: none;
+	padding: 7.5px;
+	border-radius: 10px;
+
+}
+
+.displaymenu #logout{
+	padding-right: 93px;
+}
+
+.menu:hover .displaymenu{
+	display: block;
+}
+.displaymenu a:hover{
+	background-color: #ddd;
+
+}
+
